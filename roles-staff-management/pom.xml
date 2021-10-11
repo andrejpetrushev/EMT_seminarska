@@ -18,6 +18,7 @@
     </properties>
     <dependencies>
 
+        <!--zavisnost za da bide postojana aktivna aplikacijata vo pozadina-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -44,6 +45,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--dodavanje na zavisnost kon modulot shared-kernel-->
         <dependency>
             <groupId>mk.ukim.finki.emt</groupId>
             <artifactId>shared-kernel</artifactId>

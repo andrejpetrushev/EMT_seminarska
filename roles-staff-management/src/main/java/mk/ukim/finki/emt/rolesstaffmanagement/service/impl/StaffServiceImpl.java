@@ -27,29 +27,29 @@ import java.util.Optional;
 //klasa koja pravi implementacija na StaffService
 @Service
 @Transactional
-@AllArgsConstructor
+//@AllArgsConstructor
 public class StaffServiceImpl implements StaffService {
 
     private final StaffRepository staffRepository;
     private final DomainEventPublisher domainEventPublisher;
     private final Validator validator;
 
-    //konstruktor so parametri
+    //konstruktor so argumenti
     public StaffServiceImpl(StaffRepository staffRepository, DomainEventPublisher domainEventPublisher, Validator validator) {
         this.staffRepository = staffRepository;
         this.domainEventPublisher = domainEventPublisher;
         this.validator = validator;
     }
 
-    //metod za podreduvanje na ulogi
+    //metod za validacija na podatoci za ulogi, preku koj e prikazhan i aplikaciski servis
     @Override
-    public StaffId placeRole(String position, StaffForm staffForm) {
+    public StaffId placeRole(StaffForm staffForm) {
         Objects.requireNonNull(staffForm,"staff must not be null.");
         var constraintViolations = validator.validate(staffForm);
         if (constraintViolations.size()>0) {
             throw new ConstraintViolationException("The staff form is not valid", constraintViolations);
         }
-        var newStaff = staffRepository.saveAndFlush(toDomainObject(position,staffForm));
+        var newStaff = staffRepository.saveAndFlush(toDomainObject(staffForm));
         newStaff.getRoleList().forEach(item->domainEventPublisher.publish(new RoleCreated(item.getPersonId().getId(),item.getStatus())));
         return newStaff.getId();
     }
@@ -66,27 +66,27 @@ public class StaffServiceImpl implements StaffService {
         return staffRepository.findById(id);
     }
 
-    //metod za dodavanje na odredeno lice
+    //metod za dodavanje uloga na odredeno lice - vraboten
     @Override
     public void addItem(StaffId staffId, RoleForm roleForm) throws StaffIdNotExistException {
         Staff staff = staffRepository.findById(staffId).orElseThrow(StaffIdNotExistException::new);
-        staff.addItem(roleForm.getPerson(),roleForm.getStatus());
+        staff.addRole(roleForm.getPerson(),roleForm.getStatus());
         staffRepository.saveAndFlush(staff);
         domainEventPublisher.publish(new RoleCreated(roleForm.getPerson().getId().getId(),roleForm.getStatus()));
     }
 
-    //metod za brishenje na odredeno lice
+    //metod za brishenje na uloga na odredeno lice - vraboten
     @Override
     public void deleteItem(StaffId staffId, RoleId roleId) throws StaffIdNotExistException, RoleIdNotExistException {
         Staff staff = staffRepository.findById(staffId).orElseThrow(StaffIdNotExistException::new);
-        staff.removeItem(roleId);
+        staff.removeRole(roleId);
         staffRepository.saveAndFlush(staff);
     }
 
     //metod koj pravo prefruvanje na objekt od tip Staff vo DomainObject
-    private Staff toDomainObject(String position, StaffForm staffForm) {
-        var staff = new Staff(position, staffForm.getRatingDescription());
-        staffForm.getItems().forEach(item->staff.addItem(item.getPerson(),item.getStatus()));
+    private Staff toDomainObject(StaffForm staffForm) {
+        var staff = new Staff(staffForm.getRatingDescription());
+        staffForm.getRoles().forEach(item->staff.addRole(item.getPerson(),item.getStatus()));
         return staff;
     }
 }

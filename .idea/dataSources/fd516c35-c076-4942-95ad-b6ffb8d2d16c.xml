@@ -145,6 +145,7 @@
     </extension>
     <table id="27" parent="18" name="people">
       <ObjectId>24666</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>670</StateNumber>
     </table>

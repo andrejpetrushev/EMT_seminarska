@@ -11,20 +11,31 @@ import java.util.Objects;
 import java.util.UUID;
 
 @MappedSuperclass
-@Embeddable
+@Embeddable                 //anotacija deka ovaa klasa kje se embedira/vgradi vo ramki na drugi klasi
 @Getter
 public class DomainObjectId implements Serializable {
 
     private String id;
 
+    //konstruktor so argumenti
     @JsonCreator
     protected DomainObjectId(@NonNull String uuid) {
         this.id = Objects.requireNonNull(uuid, "uuid must not be null");
     }
 
-    //prazen konstruktor
+    //prazen - default konstruktor
     public DomainObjectId(){
 
+    }
+
+    //set metod za postavuvanje na id
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    //get metod koj vrakja id
+    public String getId() {
+        return id;
     }
 
     //static metod za kreiranje na randomId od soodvetna klasa

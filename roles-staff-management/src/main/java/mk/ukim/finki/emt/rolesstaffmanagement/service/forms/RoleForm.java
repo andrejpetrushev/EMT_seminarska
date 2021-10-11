@@ -19,21 +19,21 @@ public class RoleForm {
 
     //metod za postavuvanje na objekt od tip Person
     public void setPerson(Person person) {
-        this.person = null;
+        this.person = person;
     }
 
     //metod koj postavuva status
-    public void setStatus(int i) {
-        this.status = 0;
+    public void setStatus(int status) {
+        this.status = status;
     }
 
-    //metod koj vrakja status
+    //get metod koj vrakja status
     public int getStatus() {
         return status;
     }
 
+    //get metod koj vrakja objekt od tip Person
     public Person getPerson() {
-        return null;
+        return person;
     }
-
 }

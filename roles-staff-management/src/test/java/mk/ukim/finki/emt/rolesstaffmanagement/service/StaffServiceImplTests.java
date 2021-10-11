@@ -26,6 +26,7 @@ public class StaffServiceImplTests {
     @Autowired
     private StaffService staffService;
 
+    //dependency do person clientot
     @Autowired
     private PersonClient personClient;
 
@@ -35,32 +36,32 @@ public class StaffServiceImplTests {
         return p;
     }
 
-    //test za podreduvanje na ulogi
+    //test za validacija na ulogi
     @Test
     public void testPlaceRole() {
 
         RoleForm rf1 = new RoleForm();
-        rf1.setPerson(newPerson("Andrej", Rating.valueOf(RatingDescription.EXCELLENT, 5)));
+        rf1.setPerson(newPerson("Andrej", Rating.valueOf(RatingDescription.EXCELLENT, 4.0)));
         rf1.setStatus(1);
 
         RoleForm rf2 = new RoleForm();
-        rf2.setPerson(newPerson("Zorica", Rating.valueOf(RatingDescription.EXCELLENT, 10)));
+        rf2.setPerson(newPerson("Zorica", Rating.valueOf(RatingDescription.EXCELLENT, 5.0)));
         rf2.setStatus(2);
 
         StaffForm staffForm = new StaffForm();
         staffForm.setRatingDescription(RatingDescription.EXCELLENT);
         staffForm.setRoles(Arrays.asList(rf1,rf2));
 
-        StaffId newStaffId = staffService.placeRole(position, staffForm);
+        StaffId newStaffId = staffService.placeRole(staffForm);
         Staff newStaff = staffService.findById(newStaffId).orElseThrow(StaffIdNotExistException::new);
-        Assertions.assertEquals(newStaff.number_suggestions(),Rating.valueOf(RatingDescription.EXCELLENT, 20));
-
+        Assertions.assertEquals(newStaff.number_suggestions(),Rating.valueOf(RatingDescription.EXCELLENT, 10.0));
     }
 
-    //test za podreduvanje na ulogi so koristenje na realni podatoci
+    //test za validacija na ulogi so koristenje na realni podatoci za utvrduvanje na restful komunikacijata pomegju 2-ta moduli
     @Test
     public void testPlaceRoleWithRealData() {
         List<Person> personList = personClient.findAll();
+
         Person p1 = personList.get(0);
         Person p2 = personList.get(1);
 
@@ -76,12 +77,11 @@ public class StaffServiceImplTests {
         staffForm.setRatingDescription(RatingDescription.GOOD);
         staffForm.setRoles(Arrays.asList(rf1, rf2));
 
-        StaffId newStaffId = staffService.placeRole(position,staffForm);
+        StaffId newStaffId = staffService.placeRole(staffForm);
         Staff newStaff = staffService.findById(newStaffId).orElseThrow(StaffIdNotExistException::new);
 
         Rating outRating = p1.getRating().multiply(rf1.getStatus()).add(p2.getRating().multiply(rf2.getStatus()));
         Assertions.assertEquals(newStaff.number_suggestions(),outRating);
     }
-
 }
 

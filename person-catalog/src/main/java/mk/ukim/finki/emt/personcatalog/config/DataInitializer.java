@@ -11,16 +11,17 @@ import javax.annotation.PostConstruct;
 import java.util.Arrays;
 
 @Component
-@AllArgsConstructor
+//@AllArgsConstructor
 public class DataInitializer {
 
     private final PersonRepository personRepository;
 
+    //konstruktor so argumenti
     public DataInitializer(PersonRepository personRepository) {
         this.personRepository = personRepository;
     }
 
-    //metod za inicijaliziranje na podatoci
+    //metod za inicijaliziranje na podatoci za objekti od tip Person i dodavanje na istite vo baza
     @PostConstruct
     public void initData() {
         Person p1 = Person.build("Andrej", "Petrushev", 22, 072123456, "Skopje", Rating.valueOf(RatingDescription.EXCELLENT,10), 30);
@@ -30,4 +31,3 @@ public class DataInitializer {
         }
     }
 }
-

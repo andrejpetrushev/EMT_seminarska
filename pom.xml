@@ -13,6 +13,7 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <!--dodavanje na 3te moduli koi se koristat vo aplikacijata-->
     <modules>
         <module>shared-kernel</module>
         <module>person-catalog</module>

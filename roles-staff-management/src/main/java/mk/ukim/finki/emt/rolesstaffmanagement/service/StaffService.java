@@ -14,10 +14,10 @@ import java.util.Optional;
 
 public interface StaffService {
 
-    //metod za poreduvanje na ulogi
-    StaffId placeRole(String position, StaffForm staffForm);
+    //metod za validacija na podatoci povrzani so ulogite
+    StaffId placeRole(StaffForm staffForm);
 
-    //metod koj vrakja lista od vraboteni
+    //metod koj vrakja lista od site vraboteni
     List<Staff> findAll();
 
     //metod koj vrakja vraboten so soodvetno id

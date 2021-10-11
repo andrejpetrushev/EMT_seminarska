@@ -45,6 +45,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-->zavisnost do message broker - KAFKA<-->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>

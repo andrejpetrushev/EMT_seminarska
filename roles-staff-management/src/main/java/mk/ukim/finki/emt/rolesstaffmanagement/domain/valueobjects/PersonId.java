@@ -7,14 +7,12 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class PersonId extends DomainObjectId {
 
+    //konstruktor bez argumenti
     public PersonId() {
         super(PersonId.randomId(PersonId.class).getId());
     }
 
-    private String getId() {
-
-    }
-
+    //konstruktor so argumenti
     public PersonId(String uuid) {
         super(uuid);
     }

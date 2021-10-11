@@ -14,19 +14,20 @@ public class RoleRemoved extends DomainEvent {
         super(TopicHolder.TOPIC_ROLE_REMOVED);
     }
 
-    //konstruktor so parametri za brishenje na uloga
+    //konstruktor so argumenti (topic, id i status)
     public RoleRemoved(String topic, String personId, int status) {
         super(TopicHolder.TOPIC_ROLE_REMOVED);
         this.personId = personId;
         this.status = status;
     }
 
+    //get metod koj vrakja status
     public int getStatus() {
         return status;
     }
 
-
+    //get metod koj vrakja personId
     public String getPersonId() {
-
+        return personId;
     }
 }

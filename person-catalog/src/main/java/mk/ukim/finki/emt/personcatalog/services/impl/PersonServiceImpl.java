@@ -12,14 +12,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Service
-@Transactional
-@AllArgsConstructor
+@Service                            //anotacija deka stanuva zbor za servis
+@Transactional                      //anotacija deka se pravat transakcii vo ramki na klasata
+//@AllArgsConstructor
 public class PersonServiceImpl implements PersonService {
 
     private final PersonRepository personRepository;
 
-    //konstruktor so parametri
+    //konstruktor so argument
     public PersonServiceImpl(PersonRepository personRepository) {
         this.personRepository = personRepository;
     }
@@ -38,7 +38,7 @@ public class PersonServiceImpl implements PersonService {
         return p;
     }
 
-    //metod za kreiranje uloga
+    //metod koj vrakja objekt od tip Person, otkako kje go zgolemi brojot na kupuvanja koi gi napravil
     @Override
     public Person roleCreated(PersonId personId, int status) {
         Person p = personRepository.findById(personId).orElseThrow(PersonNotFoundException::new);
@@ -47,7 +47,7 @@ public class PersonServiceImpl implements PersonService {
         return p;
     }
 
-    //metod za brishenje uloga
+    //metod koj vrakja objekt od tip Person, otkako kje go namali brojot na kupuvanja koi gi napravil
     @Override
     public Person roleRemoved(PersonId personId, int status) {
         Person p = personRepository.findById(personId).orElseThrow(PersonNotFoundException::new);
@@ -56,7 +56,7 @@ public class PersonServiceImpl implements PersonService {
         return p;
     }
 
-    //metod koj vrakja lista od Person, gi pronaogja site
+    //metod koj vrakja lista od site objekti od tip Person
     @Override
     public List<Person> getAll() {
         return personRepository.findAll();

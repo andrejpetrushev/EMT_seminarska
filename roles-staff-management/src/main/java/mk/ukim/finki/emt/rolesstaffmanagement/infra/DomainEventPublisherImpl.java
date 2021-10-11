@@ -6,19 +6,20 @@ import mk.ukim.finki.emt.sharedkernel.infra.DomainEventPublisher;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-//implementacija na publisher na nastani koj nasleduva od DomainEventPublisher
+//implementacija na publisher na nastani
 @Service
-@AllArgsConstructor
+//@AllArgsConstructor
 public class DomainEventPublisherImpl implements DomainEventPublisher {
 
+    //message broker - kafka
     private final KafkaTemplate<String,String> kafkaTemplate;
 
-    //konstruktor so parametri
+    //konstruktor so argumenti
     public DomainEventPublisherImpl(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    //publikuvanje/isprakjanje na nekoj nastan
+    //publish metod za publikuvanje/isprakjanje na nekoj nastan
     @Override
     public void publish(DomainEvent event) {
         this.kafkaTemplate.send(event.topic(),event.toJson());

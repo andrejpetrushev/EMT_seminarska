@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="person-catalog" />
         <module name="181033_Bionic-shop-users_management" />
-        <module name="roles-staff-management" />
         <module name="shared-kernel" />
+        <module name="roles-staff-management" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

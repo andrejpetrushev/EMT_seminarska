@@ -12,21 +12,22 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.util.Collections;
 import java.util.List;
 
+//PersonClient - restful service koj prevzema podatoci od nadvoreshen resurs - person-catalog
 @Service
 public class PersonClient {
 
     private final RestTemplate restTemplate;
     private final String serverUrl;
 
-    //konstruktor so parametri, se kreira serverUrl za isprakjanje na podatoci i soodveten template
-    public PersonClient(@Value("${app.product-catalog.url}") String serverUrl) {
+    //konstruktor so argumenti, se kreira serverUrl za isprakjanje na podatoci i template za rest povici
+    public PersonClient(@Value("${app.person-catalog.url}") String serverUrl) {
         this.serverUrl = serverUrl;
         this.restTemplate = new RestTemplate();
         var requestFactory = new SimpleClientHttpRequestFactory();
         this.restTemplate.setRequestFactory(requestFactory);
     }
 
-    //metod koj vrakja URI
+    //metod koj vrakja URI - Uniform Resource Identifier
     private UriComponentsBuilder uri() {
         return UriComponentsBuilder.fromUriString(this.serverUrl);
     }
@@ -41,4 +42,3 @@ public class PersonClient {
         }
     }
 }
-

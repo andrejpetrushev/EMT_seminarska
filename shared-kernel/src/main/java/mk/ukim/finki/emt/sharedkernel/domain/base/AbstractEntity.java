@@ -8,19 +8,20 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.MappedSuperclass;
 import java.util.Objects;
 
-//od klasata AbstractEntity nasleduvaat glavnite klasi vo proektot, odnosno entiteti
+//od klasata AbstractEntity nasleduvaat glavnite klasi vo proektot, odnosno entiteti, se anotira kako Super klasa
 @MappedSuperclass
 @Getter
 public class AbstractEntity<ID extends DomainObjectId> {
 
+    //anotacija so koja id-to se oznachuva kako kompoziten kluch
     @EmbeddedId
     private ID id;
 
-    //konstruktor bez parametri
+    //default konstruktor
     protected AbstractEntity() {
     }
 
-    //konstruktor so parametri
+    //konstruktor so argumenti
     protected AbstractEntity(@NonNull AbstractEntity<ID> source) {
         Objects.requireNonNull(source, "source must not be null");
         this.id = source.id;
@@ -28,6 +29,11 @@ public class AbstractEntity<ID extends DomainObjectId> {
 
     protected AbstractEntity(@NonNull ID id) {
         this.id = Objects.requireNonNull(id, "id must not be null");
+    }
+
+    //get metod koj vrakja id od tip ID
+    public ID getId() {
+        return id;
     }
 
     //metod za ednakvost na objekti

@@ -13,9 +13,11 @@ import java.util.Objects;
 @Getter
 public class Rating implements ValueObject {
 
+    //anotacija deka stanuva zbor za atribut od tip enum
     @Enumerated(value = EnumType.STRING)
     private final RatingDescription ratingDescription;
 
+    //i kaj dvata atributi se postavuva final bidejkji se immutable
     private final double grade;
 
     //prazen konstruktor
@@ -24,16 +26,25 @@ public class Rating implements ValueObject {
         this.ratingDescription = null;
     }
 
-    //konstruktor so parametri
+    //konstruktor so argumenti
     public Rating(@NonNull RatingDescription ratingDescription, @NonNull double grade){
         this.ratingDescription = ratingDescription;
         this.grade = grade;
     }
 
-    //metod so koj se vrakja soodvetna vrednost za Rating
-    public static Rating valueOf(RatingDescription ratingDescription, int grade){ return new Rating(ratingDescription, grade);}
+    //get metod koj vrakja ocenka
+    public double getGrade() {
+        return grade;
+    }
 
-    //metod za sobiranje na grades za Rating i iskluchok dokolku se so razlichen opis
+    //static metod koj vrakja instanca od Rating
+    public static Rating valueOf(RatingDescription ratingDescription, double grade){
+        return new Rating(ratingDescription, grade);
+    }
+
+    //OPERACII ZA DODAVANJE, ODZEMANJE I MNOZHENJE NA OCENKI VO RAMKI NA VREDNOSNIOT OBJEKT RATING
+
+    //metod za dodavanje na oceni za objekti od tip Rating i frlanje iskluchok dokolku se so razlichen opis
     public Rating add(Rating rating) {
         if (!ratingDescription.equals(rating.ratingDescription)) {
             throw new IllegalArgumentException("Cannot add two Rating objects with different ratingDescriptions");
@@ -41,15 +52,15 @@ public class Rating implements ValueObject {
         return new Rating(ratingDescription,grade + rating.grade);
     }
 
-    //metod za odzemanje na grades za Rating i iskluchok dokolku se so razlichen opis
+    //metod za odzemanje na oceni za objekti od tip Rating i frlanje iskluchok dokolku se so razlichen opis
     public Rating subtract(Rating rating) {
         if (!ratingDescription.equals(rating.ratingDescription)) {
-            throw new IllegalArgumentException("Cannot add two Rating objects with different ratingDescriptions");
+            throw new IllegalArgumentException("Cannot subtract two Rating objects with different ratingDescriptions");
         }
         return new Rating(ratingDescription,grade - rating.grade);
     }
 
-    //metod za mnozhenje na grade so daden broj
+    //metod za mnozhenje na ocena za daden objekt od tip Rating so daden broj
     public Rating multiply(int m)  {
         return new Rating(ratingDescription,grade*m);
     }
@@ -67,5 +78,16 @@ public class Rating implements ValueObject {
     @Override
     public int hashCode() {
         return Objects.hash(ratingDescription, grade);
+    }
+
+    //sporedba na ocenkite za dva objekti od tip Rating
+    public String compareTo(Rating r1, Rating r2){
+        if(r1.grade < r2.grade){
+            return "Object r2 has better rating than r1";
+        }
+        else if(r1.grade > r2.grade){
+            return "Object r1 has better rating than r2";
+        }
+        else return "Two Rating objects are equal";
     }
 }

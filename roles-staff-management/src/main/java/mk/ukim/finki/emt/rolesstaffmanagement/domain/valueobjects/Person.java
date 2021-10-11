@@ -3,6 +3,9 @@ package mk.ukim.finki.emt.rolesstaffmanagement.domain.valueobjects;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
+import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.Role;
+import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.RoleState;
+import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.Staff;
 import mk.ukim.finki.emt.sharedkernel.domain.base.ValueObject;
 import mk.ukim.finki.emt.sharedkernel.domain.marketing.Rating;
 import mk.ukim.finki.emt.sharedkernel.domain.marketing.RatingDescription;
@@ -15,6 +18,7 @@ public class Person implements ValueObject {
     private final Rating rating;
     private final int purchases;
 
+    //konstruktor bez argumenti
     private Person(){
         this.id=PersonId.randomId(PersonId.class);
         this.name= "";
@@ -22,6 +26,7 @@ public class Person implements ValueObject {
         this.purchases = 0;
     }
 
+    //konstruktor so argumenti, se koristi anotacija @JsonProperty za pri serijalizacija da se napravi tochno mapiranje vo soodveten atribut
     @JsonCreator
     public Person(@JsonProperty("id") PersonId id,
                    @JsonProperty("personName") String name,
@@ -33,11 +38,30 @@ public class Person implements ValueObject {
         this.purchases = purchases;
     }
 
+    //get metod koj vrakja rating
     public Rating getRating() {
         return rating;
     }
 
-    public String getId() {
+    //get metod koj vrakja id
+    public PersonId getId() {
+        return id;
+    }
 
+    //get metod koj vrakja broj na purchases
+    public int getPurchases() {
+        return purchases;
+    }
+
+    //metod koj vrakja broj na purchases zgolemen za 1 za onie korisnici koi dale ocenka za produkt pomegju 4 i 5 i koi imaat kupeno povekje od 3 produkti
+    public int changeNumberOfPurchases(Rating r){
+        int currentPurchases = 0;
+        if(purchases >= 3){
+            if(r.getGrade()>=4.0 && r.getGrade() <=5.0){
+                 currentPurchases = this.getPurchases();
+                 currentPurchases += 1;
+            }
+        }
+        return currentPurchases;
     }
 }

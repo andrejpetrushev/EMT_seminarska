@@ -11,15 +11,17 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 @Service
-@AllArgsConstructor
+//@AllArgsConstructor
 public class PersonEventListener {
 
     private final PersonService personService;
 
+    //konstruktor so argumenti
     public PersonEventListener(PersonService personService) {
         this.personService = personService;
     }
 
+    //anotacija za listener, koj pravi subscribe na topic, potochno so RoleCreated
     @KafkaListener(topics= TopicHolder.TOPIC_ROLE_CREATED, groupId = "personCatalog")
     public void consumeRoleCreatedEvent(String jsonMessage) {
         try {
@@ -30,15 +32,14 @@ public class PersonEventListener {
         }
     }
 
+    //anotacija za listener, koj pravi isto taka subscribe na topic, vo ovoj sluchaj so RoleRemoved
     @KafkaListener(topics= TopicHolder.TOPIC_ROLE_REMOVED, groupId = "personCatalog")
-    public void consumeOrderItemRemovedEvent(String jsonMessage) {
+    public void consumeRoleRemovedEvent(String jsonMessage) {
         try {
             RoleRemoved event = DomainEvent.fromJson(jsonMessage, RoleRemoved.class);
             personService.roleRemoved(PersonId.of(event.getPersonId()), event.getStatus());
         } catch (Exception e){
 
         }
-
     }
 }
-

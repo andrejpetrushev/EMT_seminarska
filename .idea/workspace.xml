@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61641e56-a3cc-4f1b-bf83-dd46593ff3a0" name="Default Changelist" comment="" />
+    <list default="true" id="61641e56-a3cc-4f1b-bf83-dd46593ff3a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9671137a-c643-4f2d-9244-f782b945da22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9671137a-c643-4f2d-9244-f782b945da22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd516c35-c076-4942-95ad-b6ffb8d2d16c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd516c35-c076-4942-95ad-b6ffb8d2d16c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/config/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/exceptions/PersonNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/exceptions/PersonNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/PersonId.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/PersonId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/valueobjects/PurchaseProductsQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/valueobjects/PurchaseProductsQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/form/PersonForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/form/PersonForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/impl/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/events/PersonEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/events/PersonEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/rest/PersonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/rest/PersonResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/RoleIdNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/RoleIdNotExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/StaffIdNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/StaffIdNotExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/RoleId.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/RoleId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/StaffId.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/StaffId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/PersonId.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/PersonId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/infra/DomainEventPublisherImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/infra/DomainEventPublisherImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/RoleForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/RoleForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/StaffForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/StaffForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/impl/StaffServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/impl/StaffServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/xport/client/PersonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/xport/client/PersonClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/test/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffServiceImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/test/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffServiceImplTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObjectId.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/ValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/ValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/config/TopicHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/config/TopicHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/DomainEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/DomainEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleCreated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleRemoved.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleRemoved.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/RatingDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/RatingDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/infra/DomainEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/infra/DomainEventPublisher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,17 +68,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="po_users@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="po_users@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -39,6 +79,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -60,6 +103,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -69,7 +113,39 @@
       <recent name="mk.ukim.finki.emt.rolesstaffmanagement.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RolesStaffManagementApplication">
+  <component name="RunManager" selected="JUnit.StaffServiceImplTests.testPlaceRoleWithRealData">
+    <configuration name="StaffServiceImplTests.testPlaceRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="roles-staff-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mk.ukim.finki.emt.rolesstaffmanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mk.ukim.finki.emt.rolesstaffmanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="mk.ukim.finki.emt.rolesstaffmanagement.service.StaffServiceImplTests" />
+      <option name="METHOD_NAME" value="testPlaceRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffServiceImplTests.testPlaceRoleWithRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="roles-staff-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mk.ukim.finki.emt.rolesstaffmanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mk.ukim.finki.emt.rolesstaffmanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="mk.ukim.finki.emt.rolesstaffmanagement.service.StaffServiceImplTests" />
+      <option name="METHOD_NAME" value="testPlaceRoleWithRealData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonCatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="person-catalog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.personcatalog.PersonCatalogApplication" />
@@ -94,10 +170,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.StaffServiceImplTests.testPlaceRole" />
+      <item itemvalue="JUnit.StaffServiceImplTests.testPlaceRoleWithRealData" />
       <item itemvalue="Spring Boot.PersonCatalogApplication" />
       <item itemvalue="Spring Boot.RolesStaffManagementApplication" />
       <item itemvalue="Spring Boot.SharedKernelApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StaffServiceImplTests.testPlaceRoleWithRealData" />
+        <item itemvalue="JUnit.StaffServiceImplTests.testPlaceRole" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -139,6 +223,8 @@
       <workItem from="1632212175040" duration="369000" />
       <workItem from="1632212565457" duration="43000" />
       <workItem from="1632212822214" duration="40958000" />
+      <workItem from="1632407729727" duration="119018000" />
+      <workItem from="1633958535484" duration="2932000" />
     </task>
     <servers />
   </component>
@@ -146,58 +232,82 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Assign_Data_Sources" timestamp="1632163382645">
+    <state x="275" y="22" key="#Assign_Data_Sources" timestamp="1633611679854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1632163382645" />
-    <state x="221" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632215357285">
+    <state x="275" y="22" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1633611679854" />
+    <state x="275" y="22" key="#Inspections" timestamp="1633189024822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="221" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1632215357285" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1632338561180">
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1633189024822" />
+    <state x="221" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633190265802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1632338561180" />
-    <state x="430" y="223" width="509" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1632324850625">
+    <state x="221" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1633190265802" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1633611305390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="430" y="223" width="509" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1632324850625" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1633611305390" />
+    <state x="173" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1633439733006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="173" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1633439733006" />
+    <state x="430" y="223" width="509" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1633090966622">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="223" width="509" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1633090966622" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1632212898688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632212898688" />
-    <state width="1323" height="173" key="GridCell.Tab.0.bottom" timestamp="1632345793363">
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom" timestamp="1633627591094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632345793363" />
-    <state width="1323" height="173" key="GridCell.Tab.0.center" timestamp="1632345793363">
+    <state width="1323" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633627591094" />
+    <state width="1323" height="283" key="GridCell.Tab.0.center" timestamp="1633627591094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1632345793363" />
-    <state width="1323" height="173" key="GridCell.Tab.0.left" timestamp="1632345793362">
+    <state width="1323" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633627591094" />
+    <state width="1323" height="283" key="GridCell.Tab.0.left" timestamp="1633627591094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1632345793362" />
-    <state width="1323" height="173" key="GridCell.Tab.0.right" timestamp="1632345793363">
+    <state width="1323" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633627591094" />
+    <state width="1323" height="283" key="GridCell.Tab.0.right" timestamp="1633627591094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1632345793363" />
-    <state width="1323" height="173" key="GridCell.Tab.1.bottom" timestamp="1632345793364">
+    <state width="1323" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633627591094" />
+    <state width="1323" height="283" key="GridCell.Tab.1.bottom" timestamp="1633627600120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632345793364" />
-    <state width="1323" height="173" key="GridCell.Tab.1.center" timestamp="1632345793363">
+    <state width="1323" height="283" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633627600120" />
+    <state width="1323" height="283" key="GridCell.Tab.1.center" timestamp="1633627600119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1632345793363" />
-    <state width="1323" height="173" key="GridCell.Tab.1.left" timestamp="1632345793363">
+    <state width="1323" height="283" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1633627600119" />
+    <state width="1323" height="283" key="GridCell.Tab.1.left" timestamp="1633627600119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1632345793363" />
-    <state width="1323" height="173" key="GridCell.Tab.1.right" timestamp="1632345793363">
+    <state width="1323" height="283" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1633627600119" />
+    <state width="1323" height="283" key="GridCell.Tab.1.right" timestamp="1633627600119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1632345793363" />
+    <state width="1323" height="283" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1633627600119" />
+    <state width="1323" height="283" key="GridCell.Tab.2.bottom" timestamp="1633627584421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="283" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633627584421" />
+    <state width="1323" height="283" key="GridCell.Tab.2.center" timestamp="1633627584420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="283" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1633627584420" />
+    <state width="1323" height="283" key="GridCell.Tab.2.left" timestamp="1633627584420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="283" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1633627584420" />
+    <state width="1323" height="283" key="GridCell.Tab.2.right" timestamp="1633627584420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="283" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1633627584420" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1632165053667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,9 +320,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="189" width="408" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728@0.0.1366.728" timestamp="1632170941848" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1633958653545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1633958653545" />
     <state x="65" y="59" key="new project wizard" timestamp="1632003599183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1632003599183" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1633442371130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1633442371130" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bionic_shop_management_users$PersonCatalogApplication.ic" NAME="PersonCatalogApplication Coverage Results" MODIFIED="1633614634831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

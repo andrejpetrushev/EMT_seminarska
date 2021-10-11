@@ -14,11 +14,11 @@ import java.util.List;
 public class StaffForm {
 
     @NotNull
-    private RatingDescription ratingDescription;
+    private RatingDescription ratingDescription;            //opis na rating
 
     @Valid
     @NotEmpty
-    private List<RoleForm> roles = new ArrayList<>();
+    private List<RoleForm> roles = new ArrayList<>();       //lista od ulogi koi korisnikot gi dodava
 
     //metod za setiranje na opis za rating
     public void setRatingDescription(RatingDescription ratingDescription) {
@@ -26,14 +26,16 @@ public class StaffForm {
     }
 
     //metod za setiranje na lista od ulogi
-    public void setRoles(List<RoleForm> asList) {
-        this.roles = null;
+    public void setRoles(List<RoleForm> roles) {
+        this.roles = roles;
     }
 
-    public Iterable<Role> getItems() {
-        return null;
+    //get metod koj vrakja lista od ulogi
+    public List<RoleForm> getRoles() {
+        return roles;
     }
 
+    //get metod koj vrakja opis na rating
     public RatingDescription getRatingDescription() {
         return ratingDescription;
     }

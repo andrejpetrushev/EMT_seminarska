@@ -13,5 +13,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/po_users</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="po_roles@localhost" uuid="928abc9f-a211-4473-bf52-3cf4ce3192dc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/po_roles</jdbc-url>
+    </data-source>
   </component>
 </project>
