@@ -2,6 +2,7 @@ package mk.ukim.finki.emt.rolesstaffmanagement.service;
 
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.exceptions.RoleIdNotExistException;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.exceptions.StaffIdNotExistException;
+import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.Role;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.RoleId;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.Staff;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.StaffId;

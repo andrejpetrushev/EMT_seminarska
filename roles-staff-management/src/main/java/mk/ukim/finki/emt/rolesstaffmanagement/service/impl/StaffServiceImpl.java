@@ -3,6 +3,7 @@ package mk.ukim.finki.emt.rolesstaffmanagement.service.impl;
 import lombok.AllArgsConstructor;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.exceptions.RoleIdNotExistException;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.exceptions.StaffIdNotExistException;
+import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.Role;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.RoleId;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.Staff;
 import mk.ukim.finki.emt.rolesstaffmanagement.domain.model.StaffId;
@@ -17,6 +18,8 @@ import mk.ukim.finki.emt.sharedkernel.infra.DomainEventPublisher;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.ConstraintViolationException;
 import javax.validation.Validator;
@@ -28,6 +31,7 @@ import java.util.Optional;
 @Service
 @Transactional
 //@AllArgsConstructor
+@RequestMapping("/api/staff")
 public class StaffServiceImpl implements StaffService {
 
     private final StaffRepository staffRepository;
@@ -55,6 +59,7 @@ public class StaffServiceImpl implements StaffService {
     }
 
     //metod koj vrakja lista od vraboteni
+    @GetMapping
     @Override
     public List<Staff> findAll() {
         return staffRepository.findAll();

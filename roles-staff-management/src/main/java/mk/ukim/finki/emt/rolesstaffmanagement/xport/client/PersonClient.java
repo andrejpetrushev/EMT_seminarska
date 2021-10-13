@@ -35,7 +35,7 @@ public class PersonClient {
     //metod koj vrakja lista od objekti od tip Person
     public List<Person> findAll() {
         try {
-            return restTemplate.exchange(uri().path("/api/person").build().toUri(), HttpMethod.GET,null, new ParameterizedTypeReference<List<Person>>() {
+            return restTemplate.exchange(uri().path("/api/people").build().toUri(), HttpMethod.GET,null, new ParameterizedTypeReference<List<Person>>() {
             }).getBody();
         } catch (Exception e) {
             return Collections.emptyList();

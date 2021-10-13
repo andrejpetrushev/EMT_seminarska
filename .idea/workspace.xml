@@ -2,55 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61641e56-a3cc-4f1b-bf83-dd46593ff3a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9671137a-c643-4f2d-9244-f782b945da22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9671137a-c643-4f2d-9244-f782b945da22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd516c35-c076-4942-95ad-b6ffb8d2d16c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd516c35-c076-4942-95ad-b6ffb8d2d16c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/config/DataInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/exceptions/PersonNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/exceptions/PersonNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/PersonId.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/models/PersonId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/valueobjects/PurchaseProductsQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/domain/valueobjects/PurchaseProductsQuantity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/form/PersonForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/form/PersonForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/services/impl/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/events/PersonEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/events/PersonEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/rest/PersonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/java/mk/ukim/finki/emt/personcatalog/xport/rest/PersonResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-catalog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/person-catalog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/RoleIdNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/RoleIdNotExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/StaffIdNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/exceptions/StaffIdNotExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/RoleId.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/RoleId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/StaffId.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/model/StaffId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/PersonId.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/domain/valueobjects/PersonId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/infra/DomainEventPublisherImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/infra/DomainEventPublisherImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/RoleForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/RoleForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/StaffForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/forms/StaffForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/impl/StaffServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/service/impl/StaffServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/xport/client/PersonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/java/mk/ukim/finki/emt/rolesstaffmanagement/xport/client/PersonClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles-staff-management/src/test/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffServiceImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/roles-staff-management/src/test/java/mk/ukim/finki/emt/rolesstaffmanagement/service/StaffServiceImplTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObjectId.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/ValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/ValueObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/config/TopicHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/config/TopicHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/DomainEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/DomainEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleCreated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleRemoved.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/events/staff/RoleRemoved.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/RatingDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/marketing/RatingDescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/infra/DomainEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/infra/DomainEventPublisher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +36,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -106,11 +66,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../185043_Bionic-product-design_description/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="mk.ukim.finki.emt.rolesstaffmanagement.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\181033_Bionic-shop-users_management\frontend\src\components\App" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.StaffServiceImplTests.testPlaceRoleWithRealData">
@@ -224,7 +187,7 @@
       <workItem from="1632212565457" duration="43000" />
       <workItem from="1632212822214" duration="40958000" />
       <workItem from="1632407729727" duration="119018000" />
-      <workItem from="1633958535484" duration="2932000" />
+      <workItem from="1633958535484" duration="29812000" />
     </task>
     <servers />
   </component>
@@ -256,10 +219,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="223" width="509" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1633090966622" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1632212898688">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1634055317246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632212898688" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1634055317246" />
     <state width="1323" height="283" key="GridCell.Tab.0.bottom" timestamp="1633627591094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
